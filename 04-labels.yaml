@@ -7,6 +7,6 @@ metadata:
     trainer: NNR
 spec:
   containers:
-    name: nginx
+  - name: nginx
     image: nginx
 
