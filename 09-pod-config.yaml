@@ -15,5 +15,5 @@ spec:
     - name: trainer
       valueFrom:
         configMapKeyRef:
-          name: trainer
+          name: daws78s
           key: trainer        
