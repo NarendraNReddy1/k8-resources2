@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   selector:
-    name: frontend
+    name: nginx-test
     project: expense
     component: frontend
     environment: dev
