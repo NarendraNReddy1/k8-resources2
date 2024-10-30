@@ -18,8 +18,9 @@ spec:
         app: nginx 
         project: some-porject
     spec:
-    -name: nginx 
-     image: nginx 
+      containers:
+      - name: nginx 
+        image: nginx 
 
 
 
