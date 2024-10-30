@@ -17,9 +17,9 @@ spec:
         tier: frontend
         app: nginx 
         project: some-porject
-    spec:
-    -name: nginx 
-     image: nginx 
-         
+  spec:
+  -name: nginx 
+    image: nginx 
+
 
 
