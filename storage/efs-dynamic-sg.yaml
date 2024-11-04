@@ -6,6 +6,6 @@ reclaimPolicy: Retain
 provisioner: efs.csi.aws.com
 parameters:
   provisioningMode: efs-ap
-  fileSystemId: fs-07bf60a84a2dc97bf
+  fileSystemId: fs-0130c5b8dc3c98055
   directoryPerms: "700"
   basePath: "/expense"
