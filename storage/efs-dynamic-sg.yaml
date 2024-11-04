@@ -3,6 +3,7 @@ apiVersion: storage.k8s.io/v1
 metadata:
   name: efs-dynamic
 provisioner: efs.csi.aws.com
+reclaimPolicy: Retain
 parameters:
   provisioningMode: efs-ap
   fileSystemId: fs-0130c5b8dc3c98055
