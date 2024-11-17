@@ -16,4 +16,22 @@ spec:
     effect: "NoSchedule"
   - key: "project"
     operator: "Exists"
-    effect: "NoSchedule"      
+    effect: "NoSchedule"   
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-wildcard-host
+spec:
+  rules:
+  - host: "backend.daws78s.online"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: backend
+            port:
+              number: 80
+
